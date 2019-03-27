@@ -1,0 +1,55 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  font-family: "Open Sans", sans-serif;
+  font-family: "Gravitas One", cursive;
+  font-family: "Rammetto One", cursive;
+  font-family: Comfortaa, cursive;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.pink {
+  background-color: #e97065;
+}
+
+.pink h2 {
+  font-family: "Rammetto One", cursive;
+}
+
+.yellow {
+  background-color: #fbd25e;
+}
+
+.yellow h2 {
+  font-family: "Gravitas One", cursive;
+}
+
+.orange {
+  background-color: #e86033;
+}
+
+.orange h2 {
+  font-family: Comfortaa, cursive;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
